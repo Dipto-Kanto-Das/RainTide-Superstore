@@ -1,0 +1,5 @@
+:root{ --rt-primary:#0d6efd; }
+.card-product:hover{ transform: translateY(-2px); transition: .2s; box-shadow: 0 .25rem .75rem rgba(0,0,0,.075); }
+.price{ font-weight:700; }
+.badge-cat{ background:#e9f3ff; color:#0d6efd; }
+footer a:hover{ text-decoration: underline; }

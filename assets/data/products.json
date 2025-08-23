@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Premium Rice 5kg",
+    "category": "Grocery",
+    "price": 520,
+    "featured": true,
+    "image": "./assets/img/logo-ss.png",
+    "description": "Finest quality rice for daily meals."
+  },
+  {
+    "id": 2,
+    "name": "Sunflower Oil 2L",
+    "category": "Grocery",
+    "price": 415,
+    "featured": true,
+    "image": "./assets/img/logo-ss.png",
+    "description": "Light and healthy cooking oil."
+  },
+  {
+    "id": 3,
+    "name": "Brown Bread",
+    "category": "Bakery",
+    "price": 85,
+    "featured": false,
+    "image": "./assets/img/logo-ss.png",
+    "description": "Freshly baked whole wheat bread."
+  },
+  {
+    "id": 4,
+    "name": "Liquid Detergent 1L",
+    "category": "Home Care",
+    "price": 260,
+    "featured": true,
+    "image": "./assets/img/logo-ss.png",
+    "description": "Powerful stain removal."
+  },
+  {
+    "id": 5,
+    "name": "Baby Diaper M (20pcs)",
+    "category": "Baby Care",
+    "price": 490,
+    "featured": true,
+    "image": "./assets/img/logo-ss.png",
+    "description": "Soft and absorbent for comfort."
+  },
+  {
+    "id": 6,
+    "name": "Shampoo 350ml",
+    "category": "Personal Care",
+    "price": 320,
+    "featured": false,
+    "image": "./assets/img/logo-ss.png",
+    "description": "Nourishing shampoo for shiny hair."
+  },
+  {
+    "id": 7,
+    "name": "Green Tea 100 bags",
+    "category": "Beverages",
+    "price": 270,
+    "featured": true,
+    "image": "./assets/img/logo-ss.png",
+    "description": "Refreshing green tea."
+  },
+  {
+    "id": 8,
+    "name": "Chocolate Cookies 12pcs",
+    "category": "Snacks",
+    "price": 150,
+    "featured": false,
+    "image": "./assets/img/logo-ss.png",
+    "description": "Crunchy and delicious cookies."
+  },
+  {
+    "id": 9,
+    "name": "Dishwash Bar 4pcs",
+    "category": "Home Care",
+    "price": 90,
+    "featured": false,
+    "image": "./assets/img/logo-ss.png",
+    "description": "Sparkling clean utensils."
+  },
+  {
+    "id": 10,
+    "name": "Basmati Rice 2kg",
+    "category": "Grocery",
+    "price": 380,
+    "featured": false,
+    "image": "./assets/img/logo-ss.png",
+    "description": "Aromatic long-grain rice."
+  }
+]
