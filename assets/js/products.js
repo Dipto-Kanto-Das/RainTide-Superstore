@@ -5,7 +5,7 @@ async function loadProducts(){
   products = await res.json();
   return products;
 }
-function formatPrice(p){ return '৳ ' + Number(p).toLocaleString('en-BD'); }
+function formatPrice(p){ return  Number(p).toLocaleString('en-BD') + '৳ '; }
 
 function productCard(p){
   return `<div class="col-6 col-md-4 col-lg-3">
@@ -47,13 +47,26 @@ function toggleCompare(id){
 async function mountHome(){
   if(!document.getElementById('featuredGrid')) return;
   const data = await loadProducts();
-  // Top categories
-  const cats = [...new Set(data.map(p=>p.category))].slice(0,6);
-  const catWrap = document.getElementById('topCategories');
-  catWrap.innerHTML = cats.map(c=>`<div class="col-6 col-md-4 col-lg-2">
-    <a href="products.html?category=${encodeURIComponent(c)}" class="text-decoration-none">
-      <div class="p-3 border rounded text-center h-100"><span class="badge badge-cat">${c}</span></div>
-    </a></div>`).join('');
+ // Top categories (category অনুযায়ী unique করে প্রথম 6টা)
+const cats = [...new Set(data.map(p=>p.category))].slice(0,6);
+const catWrap = document.getElementById('topCategories');
+
+// প্রতিটি category এর জন্য প্রথম matching product খুঁজে icon নাও
+catWrap.innerHTML = cats.map(c => {
+  const product = data.find(p => p.category === c); // category অনুযায়ী প্রথম প্রোডাক্ট খুঁজবে
+  return `
+    <div class="col-6 col-md-4 col-lg-2">
+      <a href="products.html?category=${encodeURIComponent(c)}" class="text-decoration-none">
+        <div class="p-3 border rounded text-center h-100">
+          <img src="${product?.categoryIcons || './assets/icons/default.png'}" 
+               alt="${c}" width="40" height="40" class="mb-2">
+          <div><span class="badge badge-cat">${c}</span></div>
+        </div>
+      </a>
+    </div>
+  `;
+}).join('');
+
 
   // Featured
   const featured = data.filter(p=>p.featured).slice(0,8);
@@ -134,3 +147,26 @@ async function mountCompare(){
 document.addEventListener('DOMContentLoaded', ()=>{
   mountHome(); mountProducts(); mountProductDetail(); mountWishlist(); mountCompare();
 });
+
+
+// Electronics
+function displayElectronics() {
+  const grid = document.getElementById("electronicsGrid");
+  grid.innerHTML = "";
+
+  const electronics = products.filter(p => p.category === "Electronics");
+
+  electronics.forEach(product => {
+    grid.innerHTML += `
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card h-100 card-product">
+          <img src="${product.image}" class="card-img-top" alt="${product.name}">
+          <div class="card-body">
+            <h5 class="card-title">${product.name}</h5>
+            <p class="card-text">${product.price} BDT</p>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+}
