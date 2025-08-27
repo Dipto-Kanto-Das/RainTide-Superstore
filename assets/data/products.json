@@ -36,7 +36,7 @@
     "category": "Beauty & Personal Care",
     "price": 260,
     "featured": true,
-    "image": "./assets/img/logo-ss.png",
+    "image": "./assets/img/market-4.png",
     "description": "Powerful stain removal."
   },
   {
@@ -46,7 +46,7 @@
     "category": "Beauty & Personal Care",
     "price": 260,
     "featured": true,
-    "image": "./assets/img/logo-ss.png",
+    "image": "./assets/img/market-3.png",
     "description": "Powerful stain removal."
   },
   {
@@ -120,7 +120,7 @@
     "category": "Clothes",
     "price": 490,
    "featured": true,
-    "image": "./assets/img/logo-ss.png",
+    "image": "./assets/img/market-3.png",
     "description": "Soft and absorbent for comfort."
   },
   {
@@ -130,7 +130,7 @@
     "category": "Clothes",
     "price": 490,
    "featured": true,
-    "image": "./assets/img/logo-ss.png",
+    "image": "./assets/img/market-5.png",
     "description": "Soft and absorbent for comfort."
   },
 
@@ -172,7 +172,7 @@
     "category": "Beverages",
     "price": 150,
     "featured": false,
-    "image": "./assets/img/logo-ss.png",
+    "image": "./assets/img/market-5.png",
     "description": "Crunchy and delicious cookies."
   },
   {
@@ -182,7 +182,7 @@
     "category": "Beverages",
     "price": 90,
     "featured": false,
-    "image": "./assets/img/logo-ss.png",
+    "image": "./assets/img/market-3.png",
     "description": "Sparkling clean utensils."
   },
   
