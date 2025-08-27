@@ -242,8 +242,42 @@
   <div id="electronicsGrid" class="row g-3">
     <!-- JS দিয়ে প্রোডাক্ট লোড হবে -->
   </div>
-
 </section>
+
+<!-- Clothes -->
+  <section class="py-5">
+  <div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h3 class="mb-0">Clothes</h3>
+      <a href="products.html?category=Clothes" class="btn btn-outline-secondary btn-sm">View all</a>
+    </div>
+    <div class="row g-3" id="clothesGrid"></div>
+  </div>
+</section>
+
+<!-- Beauty & Personal Care Section -->
+<section class="container my-5" id="beautySection">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h3>Beauty </h3>
+    <a href="products.html?cat=Beauty" class="btn btn-outline-secondary btn-sm">View all</a>
+  </div>
+  <div class="row g-3">
+  </div> 
+</section>
+
+
+<div class="container my-5" style="max-width:720px">
+  <h3>Contact Us</h3>
+  <p class="text-muted">Have a question? Send us a message.</p>
+  <form onsubmit="event.preventDefault(); alert('Message sent (demo).');">
+    <div class="row g-3">
+      <div class="col-md-6"><input required class="form-control" placeholder="Your name"></div>
+      <div class="col-md-6"><input required type="email" class="form-control" placeholder="Email"></div>
+      <div class="col-12"><textarea required class="form-control" rows="5" placeholder="Message"></textarea></div>
+      <div class="col-12 text-end"><button class="btn btn-primary">Send</button></div>
+    </div>
+  </form>
+</div>
 
     <footer class="bg-dark text-light mt-5 pt-4 pb-4">
   <div class="container">

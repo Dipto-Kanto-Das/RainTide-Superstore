@@ -238,41 +238,39 @@ async function displayElectronics() {
   grid.innerHTML = "";
 
   const electronics = products.filter(p => p.category === "Electronics");
-
-  electronics.forEach(product => {
-    grid.innerHTML += `
-      <div class="col-6 col-md-4 col-lg-3">
-        <div class="card h-100 card-product">
-          <img src="${product.image}" class="card-img-top" alt="${product.name}">
-          <div class="card-body d-flex flex-column">
-            <h6 class="card-title flex-grow-1">
-              <a class="text-decoration-none" href="product.html?id=${product.id}">${product.name}</a>
-            </h6>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="price">${formatPrice(product.price)}</div>
-              <div>
-                <button class="btn btn-sm btn-outline-primary" onclick="addToCart(${product.id})">Add</button>
-                <button class="btn btn-sm btn-outline-secondary" title="Wishlist" onclick="toggleWishlist(${product.id})">♥</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>`;
-  });
+  grid.innerHTML = electronics.map(productCard).join('');
 }
 
 // =======================
-// DOMContentLoaded
+// CLOTHES SECTION
+// =======================
+async function displayClothes() {
+  await loadProducts();
+  const grid = document.getElementById("clothesGrid");
+  if (!grid) return;
+  grid.innerHTML = "";
+
+  const clothes = products.filter(p => p.category === "Clothes");
+  grid.innerHTML = clothes.map(productCard).join('');
+}
+
+// =======================
+// DOMContentLoaded (ONE TIME ONLY)
 // =======================
 document.addEventListener('DOMContentLoaded', async () => {
-  await mountHome();
-  await mountProducts();
-  await mountProductDetail();
-  await mountWishlist();
+  await mountHome(); 
+  await mountProducts(); 
+  await mountProductDetail(); 
+  await mountWishlist(); 
   await mountCompare();
+
+  // নতুন সেকশন লোড
   await displayElectronics();
+  await displayClothes();
+
   updateCounts();
 
+  // Account Info
   const info = document.getElementById('accountInfo');
   if (info) {
     const u = store.user();
@@ -286,4 +284,30 @@ document.addEventListener('DOMContentLoaded', async () => {
       <div class="col-md-6"><strong>Phone:</strong> ${u.phone}</div>
     </div>`;
   }
+});
+// 
+async function displayBeauty(){
+  const res = await fetch('./assets/data/products.json');
+  const products = await res.json();
+  const beauty = products.filter(p => p.category === "Beauty & Personal Care");
+
+  if(beauty.length){
+    const section = document.getElementById('beautySection');
+    const row = section.querySelector('.row');
+    if(row){
+      row.innerHTML = beauty.map(p => productCard(p)).join('');
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', ()=>{
+  mountHome(); 
+  mountProducts(); 
+  mountProductDetail(); 
+  mountWishlist(); 
+  mountCompare();
+
+  displayElectronics();
+  displayClothes();
+  displayBeauty();  // 🔥 নতুন Beauty section load হবে
 });

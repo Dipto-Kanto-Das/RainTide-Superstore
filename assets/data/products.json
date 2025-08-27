@@ -1,14 +1,24 @@
 [
   {
-  "id": 1,
-  "categoryIcons": "./assets/img/icon-ss.png",
-  "name": "Premium Rice 5kg",
-  "category": "Grocery",
-  "price": 520,
-  "featured": true,
-  "image": "./assets/img/Grocery (1).jpg",
-  "description": "Finest quality rice for daily meals."
-},
+    "id": 1,
+    "categoryIcons": "./assets/img/icon-ss.png",
+    "name": "Premium Rice 5kg",
+    "category": "Grocery",
+    "price": 520,
+    "featured": true,
+    "image": "./assets/img/Grocery (1).jpg",
+    "description": "Finest quality rice for daily meals."
+  },
+  {
+    "id": 15,
+    "categoryIcons": "./assets/img/Icon-ss.png",
+    "name": "Basmati Rice 2kg",
+    "category": "Grocery",
+    "price": 380,
+    "featured": false,
+    "image": "./assets/img/Grocery-3.jpg",
+    "description": "Aromatic long-grain rice."
+  },
   {
     "id": 2,
     "categoryIcons": "./assets/img/icon-ss.png",
@@ -19,6 +29,27 @@
     "image": "./assets/img/Grocery-4 (1).jpg",
     "description": "Light and healthy cooking oil."
   },
+    {
+    "id": 4,
+    "categoryIcons": "./assets/img/Icon-ss.png",
+    "name": "Liquid Detergent 1L",
+    "category": "Beauty & Personal Care",
+    "price": 260,
+    "featured": true,
+    "image": "./assets/img/logo-ss.png",
+    "description": "Powerful stain removal."
+  },
+  {
+    "id": 11,
+    "categoryIcons": "./assets/img/Icon-ss.png",
+    "name": "Shampoo 350ml",
+    "category": "Beauty & Personal Care",
+    "price": 320,
+    "featured": false,
+    "image": "./assets/img/Bakery2 (1).jpg",
+    "description": "Nourishing shampoo for shiny hair."
+  },
+
   {
     "id": 3,
     "categoryIcons": "./assets/img/Icon-ss.png",
@@ -30,18 +61,19 @@
     "image": "./assets/img/Bakery2 (1).jpg",
     "description": "Freshly baked whole wheat bread."
   },
+
   {
     "id": 4,
     "categoryIcons": "./assets/img/Icon-ss.png",
-    "name": "Liquid Detergent 1L",
-    "category": "Beauty & Personal Care",
-    "price": 260,
-    "featured": true,
-    "image": "./assets/img/logo-ss.png",
-    "description": "Powerful stain removal."
+    "name": "Brown Bread",
+    "category": "Bakery",
+    "price": 85,
+    "featured": false,
+    "image": "./assets/img/Bakery2 (1).jpg",
+    "description": "Freshly baked whole wheat bread."
   },
   {
-    "id": 3,
+    "id": 5,
     "categoryIcons": "./assets/img/Icon-ss.png",
     "name": "Brown Bread",
     "category": "Bakery",
@@ -51,7 +83,7 @@
     "description": "Freshly baked whole wheat bread."
   },
   {
-    "id": 3,
+    "id": 6,
     "categoryIcons": "./assets/img/Icon-ss.png",
     "name": "Brown Bread",
     "category": "Bakery",
@@ -61,7 +93,7 @@
     "description": "Freshly baked whole wheat bread."
   },
   {
-    "id": 3,
+    "id": 7,
     "categoryIcons": "./assets/img/Icon-ss.png",
     "name": "Brown Bread",
     "category": "Bakery",
@@ -70,31 +102,19 @@
     "image": "./assets/img/Bakery3.jpg",
     "description": "Freshly baked whole wheat bread."
   },
-  
+
   {
-    "id": 5,
+    "id": 8,
     "categoryIcons": "./assets/img/Icon-ss.png",
     "name": "Baby Diaper M (20pcs)",
-    "category": "Fashion & Lifestyle",
+    "category": "Clothes",
     "price": 490,
-    "discount": 28,
-    "featured": true,
+   "featured": true,
     "image": "./assets/img/logo-ss.png",
     "description": "Soft and absorbent for comfort."
   },
   {
-    "id": 6,
-    "categoryIcons": "./assets/img/Icon-ss.png",
-    "name": "Shampoo 350ml",
-    "category": "Beauty & Personal Care",
-    "price": 320,
-    "discount": 28,
-    "featured": false,
-    "image": "./assets/img/logo-ss.png",
-    "description": "Nourishing shampoo for shiny hair."
-  },
-  {
-    "id": 11,
+    "id": 9,
     "categoryIcons": "./assets/img/Icon-ss.png",
     "name": "Green Tea 100 bags",
     "category": "Beverages",
@@ -104,7 +124,7 @@
     "description": "Refreshing green tea."
   },
   {
-    "id": 7,
+    "id": 10,
     "categoryIcons": "./assets/img/Icon-ss.png",
     "name": "Green Tea 100 bags",
     "category": "Beverages",
@@ -113,81 +133,41 @@
     "image": "./assets/img/Beverages-5.jpg",
     "description": "Refreshing green tea."
   },
+  
   {
-    "id": 8,
+    "id": 12,
     "categoryIcons": "./assets/img/Icon-ss.png",
     "name": "Green Tea 100 bags",
     "category": "Electronics",
     "price": 270,
     "featured": true,
-    "image": "./assets/img/Beverages-4 (1).jpg",
+    "image": "./assets/img/laptop-2.jpg",
     "description": "Refreshing green tea."
   },
   {
-    "id": 9,
-    "categoryIcons": "./assets/img/Icon-ss.png",
-    "name": "Green Tea 100 bags",
-    "category": "Electronics",
-    "price": 270,
-    "featured": true,
-    "image": "./assets/img/Beverages-3 (1).jpg",
-    "description": "Refreshing green tea."
-  },
-
-  {
-    "id": 8,
+    "id": 13,
     "categoryIcons": "./assets/img/Icon-ss.png",
     "name": "Chocolate Cookies 12pcs",
-    "category": "Electronics",
+    "category": "",
     "price": 150,
     "featured": false,
     "image": "./assets/img/logo-ss.png",
     "description": "Crunchy and delicious cookies."
   },
   {
-    "id": 9,
+    "id": 14,
     "categoryIcons": "./assets/img/Icon-ss.png",
     "name": "Dishwash Bar 4pcs",
-    "category": "Electronics",
+    "category": "",
     "price": 90,
     "featured": false,
     "image": "./assets/img/logo-ss.png",
     "description": "Sparkling clean utensils."
   },
+  
   {
-    "id": 10,
-    "categoryIcons": "./assets/img/Icon-ss.png",
-    "name": "Basmati Rice 2kg",
-    "category": "Grocery",
-    "price": 380,
-    "discount": 28,
-    "featured": false,
-    "image": "./assets/img/Grocery-3.jpg",
-    "description": "Aromatic long-grain rice."
-  },
-  {
-    "id": 13,
-    "categoryIcons": "./assets/img/Icon-ss.png",
-    "name": "Basmati Rice 2kg",
-    "category": "Grocery",
-    "price": 380,
-    "discount": 28,
-    "featured": false,
-    "image": "./assets/img/Grocery-4 (1).jpg",
-    "description": "Aromatic long-grain rice."
-  },
-    {
-    "id": 12,
-    "categoryIcons": "./assets/img/Icon-ss.png",
-    "name": "Green Tea 100 bags",
-    "category": "Beverages",
-    "price": 270,
-    "featured": true,
-    "image": "./assets/img/Beverages-2 (1).jpg",
-    "description": "Refreshing green tea."
-  },
-  {
-    "id": 1,
+    "id": 16,
+   "categoryIcons": "./assets/img/Icon-ss.png",
     "name": "Laptop XYZ",
     "category": "Electronics",
     "price": 45000,
@@ -195,41 +175,10 @@
     "image": "./assets/img/laptop-1.jpg",
     "description": "High performance laptop"
   },
-  
- 
-  {
-    "id": 1,
-    "name": "Laptop XYZ",
-    "category": "Electronics",
-    "price": 45000,
-    "featured": true,
-    "image": "./assets/img/laptop-2.jpg",
-    "description": "High performance laptop"
-  },
-    
-  {
-    "id": 1,
-    "name": "Laptop XYZ",
-    "category": "Electronics",
-    "price": 45000,
-    "featured": true,
-    "image": "./assets/img/laptop-3.jpg",
-    "description": "High performance laptop"
-  },
 
-  
   {
-    "id": 1,
-    "name": "Laptop XYZ",
-    "category": "Electronics",
-    "price": 45000,
-    "featured": true,
-    "image": "./assets/img/laptop-1.jpg",
-    "description": "High performance laptop"
-  },
-  
-  {
-    "id": 2,
+    "id": 17,
+    "categoryIcons": "./assets/img/Icon-ss.png",
     "name": "Mobile ABC",
     "category": "Electronics",
     "price": 25000,
@@ -237,54 +186,18 @@
     "image": "./assets/img/Moble-2.jpg",
     "description": "Smartphone with great camera"
   },
-    {
-    "id": 2,
-    "name": "Mobile ABC",
+  {
+    "id": 19,
+    "categoryIcons": "./assets/img/Icon-ss.png",
+    "name": "Smartphone",
     "category": "Electronics",
-    "price": 25000,
+    "price": 15000,
     "featured": true,
-    "image": "./assets/img/Moble-1.jpg",
-    "description": "Smartphone with great camera"
+    "image": "./assets/img/smartphone.jpg"
   },
   {
-    "id": 2,
-    "name": "Mobile ABC",
-    "category": "Electronics",
-    "price": 25000,
-    "featured": true,
-    "image": "./assets/img/Moble-2.jpg",
-    "description": "Smartphone with great camera"
-  },
-    {
-    "id": 2,
-    "name": "Mobile ABC",
-    "category": "Electronics",
-    "price": 25000,
-    "featured": true,
-    "image": "./assets/img/Moble-3.jpg",
-    "description": "Smartphone with great camera"
-  },
- {
-    "id": 3,
-    "name": "Office Chair",
-    "category": "Furniture",
-    "price": 7000,
-    "featured": false,
-    "image": "./assets/img/chair1.jpg",
-    "description": "Comfortable office chair"
-  },
-  {
-    "id": 3,
-    "name": "Office Chair",
-    "category": "Furniture",
-    "price": 7000,
-    "featured": false,
-    "image": "./assets/img/chair1.jpg",
-    "description": "Comfortable office chair"
-  },
-
-   {
-    "id": 3,
+    "id": 18,
+    "categoryIcons": "./assets/img/Icon-ss.png",
     "name": "Office Chair",
     "category": "Furniture",
     "price": 7000,
