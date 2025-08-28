@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "categoryIcons": "./assets/img/market-3.png",
+    "categoryIcons": "./assets/img/bag-icon.png",
     "name": "Grocery",
     "category": "Grocery",
     "price": 520,
@@ -12,7 +12,7 @@
   
   {
     "id": 13,
-    "categoryIcons": "./assets/img/Market-3.png",
+    "categoryIcons": "./assets/img/Market-4.png",
     "name": "Beverages",
     "category": "Beverages",
     "price": 270,
@@ -22,7 +22,7 @@
   },
   {
     "id": 5,
-    "categoryIcons": "./assets/img/Market-3.png",
+    "categoryIcons": "./assets/img/Market-5.png",
     "name": "Beauty & Personal Care",
     "category": "Beauty & Personal Care",
     "price": 260,
@@ -32,7 +32,7 @@
   },
     {
     "id": 7,
-    "categoryIcons": "./assets/img/Market-3.png",
+    "categoryIcons": "./assets/img/man.png",
     "name": "Bakery",
     "category": "Bakery",
     "price": 85,
@@ -43,7 +43,7 @@
   },
    {
     "id": 11,
-    "categoryIcons": "./assets/img/Market-3.png",
+    "categoryIcons": "./assets/img/icon-ss.png",
     "name": "Clothes",
     "category": "Clothes",
     "price": 490,
@@ -53,7 +53,7 @@
   },
    {
     "id": 20,
-    "categoryIcons": "./assets/img/Market-3.png",
+    "categoryIcons": "./assets/img/market-3.png",
     "name": "Electronics",
     "category": "Electronics",
     "price": 15000,
