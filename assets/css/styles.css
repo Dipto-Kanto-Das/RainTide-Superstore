@@ -11,3 +11,57 @@ footer a:hover{ text-decoration: underline; }
     text-align: center;
     color: #f80303;
 }
+.pay-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.pay-wrapper img {
+  max-width: 1250px;
+  height: auto;
+}
+/* discount */
+.signup-offer {
+  text-align: center;
+  background: linear-gradient(135deg, #2bc740, #e69292);
+  padding: 40px 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.discount {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 5px #000;
+  animation: pulse 1.5s infinite;
+}
+
+.signup-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #1e90ff;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signup-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}

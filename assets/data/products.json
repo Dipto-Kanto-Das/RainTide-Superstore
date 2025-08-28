@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "categoryIcons": "./assets/img/icon-ss.png",
+    "categoryIcons": "./assets/img/market-3.png",
     "name": "Grocery",
     "category": "Grocery",
     "price": 520,
@@ -9,9 +9,60 @@
     "image": "./assets/img/Grocery (1).jpg",
     "description": "Finest quality rice for daily meals."
   },
+  
+  {
+    "id": 13,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Beverages",
+    "category": "Beverages",
+    "price": 270,
+    "featured": true,
+    "image": "./assets/img/Beverages-1 (1).jpg",
+    "description": "Refreshing green tea."
+  },
+  {
+    "id": 5,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Beauty & Personal Care",
+    "category": "Beauty & Personal Care",
+    "price": 260,
+    "featured": true,
+    "image": "./assets/img/beauty-2 (1).jpg",
+    "description": "Powerful stain removal."
+  },
+    {
+    "id": 7,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Bakery",
+    "category": "Bakery",
+    "price": 85,
+    "discount": 28,
+    "featured": false,
+    "image": "./assets/img/Bakery2 (1).jpg",
+    "description": "Freshly baked whole wheat bread."
+  },
+   {
+    "id": 11,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Clothes",
+    "category": "Clothes",
+    "price": 490,
+   "featured": true,
+    "image": "./assets/img/Clothes-4 (1).jpg",
+    "description": "Soft and absorbent for comfort."
+  },
+   {
+    "id": 20,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Electronics",
+    "category": "Electronics",
+    "price": 15000,
+    "featured": true,
+    "image": "./assets/img/Electronics-00 (1).jpg"
+  },
   {
     "id": 2,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "categoryIcons": "./assets/img/Market-4.png",
     "name": "Grocery",
     "category": "Grocery",
     "price": 380,
@@ -21,7 +72,7 @@
   },
   {
     "id": 3,
-    "categoryIcons": "./assets/img/icon-ss.png",
+    "categoryIcons": "./assets/img/market-3.png",
     "name": "Grocery",
     "category": "Grocery",
     "price": 415,
@@ -31,50 +82,62 @@
   },
     {
     "id": 4,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "categoryIcons": "./assets/img/Market-3.png",
     "name": "Beauty & Personal Care",
     "category": "Beauty & Personal Care",
     "price": 260,
     "featured": true,
-    "image": "./assets/img/market-4.png",
+    "image": "./assets/img/beauty-1 (1).jpg",
     "description": "Powerful stain removal."
   },
+  
   {
-    "id": 4,
-    "categoryIcons": "./assets/img/Icon-ss.png",
-    "name": "Beauty & Personal Care",
-    "category": "Beauty & Personal Care",
-    "price": 260,
-    "featured": true,
-    "image": "./assets/img/market-3.png",
-    "description": "Powerful stain removal."
-  },
-  {
-    "id": 5,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "id": 6,
+    "categoryIcons": "./assets/img/Market-3.png",
     "name": "Beauty & Personal Care",
     "category": "Beauty & Personal Care",
     "price": 320,
     "featured": false,
-    "image": "./assets/img/Bakery2 (1).jpg",
+    "image": "./assets/img/beauty-4 (1).jpg",
+    "description": "Nourishing shampoo for shiny hair."
+  },
+
+    {
+    "id": 6,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Beauty & Personal Care",
+    "category": "Beauty & Personal Care",
+    "price": 320,
+    "featured": false,
+    "image": "./assets/img/Beauty & Personal Care-5555 (1).jpg",
+    "description": "Nourishing shampoo for shiny hair."
+  },
+
+    {
+    "id": 6,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Beauty & Personal Care",
+    "category": "Beauty & Personal Care",
+    "price": 320,
+    "featured": false,
+    "image": "./assets/img/Beauty & Personal Care-55 (1).jpg",
+    "description": "Nourishing shampoo for shiny hair."
+  },
+
+    {
+    "id": 6,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Beauty & Personal Care",
+    "category": "Beauty & Personal Care",
+    "price": 320,
+    "featured": false,
+    "image": "./assets/img/Beauty & Personal Care-555 (1).jpg",
     "description": "Nourishing shampoo for shiny hair."
   },
 
   {
-    "id": 6,
-    "categoryIcons": "./assets/img/Icon-ss.png",
-    "name": "Bakery",
-    "category": "Bakery",
-    "price": 85,
-    "discount": 28,
-    "featured": false,
-    "image": "./assets/img/Bakery2 (1).jpg",
-    "description": "Freshly baked whole wheat bread."
-  },
-
-  {
-    "id": 7,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "id": 8,
+    "categoryIcons": "./assets/img/Market-3.png",
     "name": "Bakery",
     "category": "Bakery",
     "price": 85,
@@ -84,7 +147,7 @@
   },
   {
     "id": 8,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "categoryIcons": "./assets/img/Market-3.png",
     "name": "Bakery",
     "category": "Bakery",
     "price": 85,
@@ -94,7 +157,7 @@
   },
   {
     "id": 9,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "categoryIcons": "./assets/img/Market-3.png",
     "name": "Bakery",
     "category": "Bakery",
     "price": 85,
@@ -104,7 +167,7 @@
   },
   {
     "id": 10,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "categoryIcons": "./assets/img/Market-3.png",
     "name": "Bakery",
     "category": "Bakery",
     "price": 85,
@@ -113,40 +176,64 @@
     "description": "Freshly baked whole wheat bread."
   },
  
+ 
   {
-    "id": 11,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "id": 12,
+    "categoryIcons": "./assets/img/Market-3.png",
     "name": "Clothes",
     "category": "Clothes",
     "price": 490,
    "featured": true,
-    "image": "./assets/img/market-3.png",
+    "image": "./assets/img/Clothes-3 (1).jpg",
     "description": "Soft and absorbent for comfort."
   },
   {
     "id": 12,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "categoryIcons": "./assets/img/Market-3.png",
     "name": "Clothes",
     "category": "Clothes",
     "price": 490,
    "featured": true,
-    "image": "./assets/img/market-5.png",
+    "image": "./assets/img/Clothes-2 (1).jpg",
     "description": "Soft and absorbent for comfort."
   },
 
   {
-    "id": 13,
-    "categoryIcons": "./assets/img/Icon-ss.png",
-    "name": "Beverages",
-    "category": "Beverages",
-    "price": 270,
-    "featured": true,
-    "image": "./assets/img/Beverages-1 (1).jpg",
-    "description": "Refreshing green tea."
+    "id": 12,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Clothes",
+    "category": "Clothes",
+    "price": 490,
+   "featured": true,
+    "image": "./assets/img/Clothes333 (1).jpg",
+    "description": "Soft and absorbent for comfort."
   },
+
+  {
+    "id": 12,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Clothes",
+    "category": "Clothes",
+    "price": 490,
+   "featured": true,
+    "image": "./assets/img/Clothes33333 (1).jpg",
+    "description": "Soft and absorbent for comfort."
+  },
+
+  {
+    "id": 12,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Clothes",
+    "category": "Clothes",
+    "price": 490,
+   "featured": true,
+    "image": "./assets/img/Clothes3333 (1).jpg",
+    "description": "Soft and absorbent for comfort."
+  },
+
   {
     "id": 14,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "categoryIcons": "./assets/img/Market-3.png",
     "name": "Beverages",
     "category": "Beverages",
     "price": 270,
@@ -154,11 +241,32 @@
     "image": "./assets/img/Beverages-5.jpg",
     "description": "Refreshing green tea."
   },
-  
+
+  {
+    "id": 16,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Beverages",
+    "category": "Beverages",
+    "price": 150,
+    "featured": false,
+    "image": "./assets/img/Beverages-0 (1).jpg",
+    "description": "Crunchy and delicious cookies."
+  },
+  {
+    "id": 17,
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Beverages",
+    "category": "Beverages",
+    "price": 90,
+    "featured": false,
+    "image": "./assets/img/Beverages00 (1).jpg",
+    "description": "Sparkling clean utensils."
+  },
+   
   {
     "id": 15,
-    "categoryIcons": "./assets/img/Icon-ss.png",
-    "name": "Beverages",
+    "categoryIcons": "./assets/img/Market-3.png",
+    "name": "Electronics",
     "category": "Electronics",
     "price": 270,
     "featured": true,
@@ -166,29 +274,8 @@
     "description": "Refreshing green tea."
   },
   {
-    "id": 16,
-    "categoryIcons": "./assets/img/Icon-ss.png",
-    "name": "Beverages",
-    "category": "Beverages",
-    "price": 150,
-    "featured": false,
-    "image": "./assets/img/market-5.png",
-    "description": "Crunchy and delicious cookies."
-  },
-  {
-    "id": 17,
-    "categoryIcons": "./assets/img/Icon-ss.png",
-    "name": "Beverages",
-    "category": "Beverages",
-    "price": 90,
-    "featured": false,
-    "image": "./assets/img/market-3.png",
-    "description": "Sparkling clean utensils."
-  },
-  
-  {
     "id": 18,
-   "categoryIcons": "./assets/img/Icon-ss.png",
+   "categoryIcons": "./assets/img/Market-3.png",
     "name": "Electronics",
     "category": "Electronics",
     "price": 45000,
@@ -199,7 +286,7 @@
 
   {
     "id": 19,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "categoryIcons": "./assets/img/Market-3.png",
     "name": "Electronics",
     "category": "Electronics",
     "price": 25000,
@@ -209,21 +296,21 @@
   },
   {
     "id": 20,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "categoryIcons": "./assets/img/Market-3.png",
     "name": "Electronics",
     "category": "Electronics",
     "price": 15000,
     "featured": true,
-    "image": "./assets/img/Moble-2.jpg"
+    "image": "./assets/img/Electronics-00000 (1).jpg"
   },
   {
     "id": 21,
-    "categoryIcons": "./assets/img/Icon-ss.png",
+    "categoryIcons": "./assets/img/Market-3.png",
     "name": "Electronics",
     "category": "Electronics",
     "price": 7000,
     "featured": false,
-    "image": "./assets/img/Moble-2.jpg",
+    "image": "./assets/img/Electronics-000 (1).jpg",
     "description": "Comfortable office chair"
   }
 ]
