@@ -19,6 +19,7 @@ footer a:hover{ text-decoration: underline; }
 }
 .pay-wrapper img {
   max-width: 1250px;
+  width: 100%;
   height: auto;
 }
 /* discount */
